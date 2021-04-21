@@ -31,7 +31,12 @@ public class CalculandoOValordePI {
 			
 			n1 += 2;
 			
-			System.out.printf("%.2f %n", pi);
+			System.out.printf("%.5f %n", pi);
+			
+			if(pi == 3.14159) {
+				System.out.printf("O PI chegou no resultado no passo: %d%n", i);
+				
+			}
 			
 		}
 		
